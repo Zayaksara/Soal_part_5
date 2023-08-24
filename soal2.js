@@ -14,58 +14,58 @@
 //tips gunakan keyword ini di google "conditional switch case javascript"
 //dan mulailah membaca dan mencontek di stackoverflow xixixi
 
-let tanggal = 19; // assign nilai variabel tanggal disini! (dengan angka antara 1 - 31)
-let bulan = 101 ; // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
-let tahun = 2001; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
+let tanggal = 24; // assign nilai variabel tanggal disini! (dengan angka antara 1 - 31)
+let bulan = 8; // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
+let tahun = 2023; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
 let txt = '';
 
-switch (true){
+switch (tanggal){
     case tanggal >= 1 && tanggal <=31:
         break;
     default:
 }
 
-switch (true){
-    case bulan === 1:
+switch (bulan){
+    case 1:
         txt = 'Januari';
         break;
-    case bulan === 2:
+    case 2:
         txt = 'Februari';
         break;
-    case bulan === 3:
+    case 3:
         txt = 'Maret';
         break;
-    case bulan === 4:
+    case 4:
         txt = 'April';
         break;
-    case bulan === 5:
+    case 5:
         txt = 'Mei';
         break;
-    case bulan === 6:
+    case 6:
         txt = 'Juni';
         break;
-    case bulan === 7:
+    case 7:
         txt = 'Juli';
         break;
-    case bulan === 8:
+    case 8:
         txt = 'Agustus';
         break;
-    case bulan === 9:
+    case 9:
         txt = 'September';
         break;
-    case bulan === 10:
+    case 10:
         txt = 'Oktober';
         break;
-    case bulan === 11:
+    case 11:
         txt = 'November';
         break;
-    case bulan === 12:
+    case 12:
         txt = 'Desember';
         break;
     default:
 }
 
-switch (true){
+switch (tahun){
     case tahun >= 1900 && tahun <= 2200:
         break;
     default:
